@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity 0.8.10;
+pragma solidity ^0.8.7;
 
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
@@ -21,7 +20,7 @@ contract TradingSignalsArena {
         view
         returns (uint256 tokenDaiPrice) {
 
-        tokenDaiPrice = supportedTokens[token].lastDaiPriceKnown;
+      //tokenDaiPrice = supportedTokens[token].lastDaiPriceKnown;
 
         // TODO: Add price feed oracle        
         /*AggregatorV3Interface priceFeed = AggregatorV3Interface(
