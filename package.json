@@ -1,0 +1,22 @@
+{
+  "name": "eth-global-lisbon-hackathon",
+  "version": "1.0.0",
+  "description": "This is the project for the team (hcr83)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcolomina/eth-global-lisbon-hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcolomina/eth-global-lisbon-hackathon/issues"
+  },
+  "homepage": "https://github.com/rcolomina/eth-global-lisbon-hackathon#readme",
+  "devDependencies": {
+    "hardhat": "^2.14.0"
+  }
+}
